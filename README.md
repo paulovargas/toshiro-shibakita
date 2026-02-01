@@ -32,8 +32,6 @@ Todos os serviços se comunicam por meio de uma **rede interna Docker**.
 ## 📁 Estrutura do Projeto
 
 ```text
----
-
 toshiro-shibakita/
 │
 ├── app/
@@ -47,8 +45,7 @@ toshiro-shibakita/
 │
 ├── Dockerfile # Imagem PHP-FPM com extensão mysqli
 └── docker-compose.yml # Orquestração dos microsserviços
-
-
+```
 ---
 
 ## 🛠️ Tecnologias Utilizadas
