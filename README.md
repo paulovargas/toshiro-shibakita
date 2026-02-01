@@ -31,19 +31,19 @@ Todos os serviços se comunicam por meio de uma **rede interna Docker**.
 
 ## 📁 Estrutura do Projeto
 
-toshiro-shibakita/
-│
-├── app/
-│ └── index.php # Aplicação PHP
-│
-├── db/
-│ └── banco.sql # Script de criação do banco e da tabela
-│
-├── nginx/
-│ └── nginx.conf # Configuração do NGINX
-│
-├── Dockerfile # Imagem PHP-FPM com extensão mysqli
-└── docker-compose.yml # Orquestração dos microsserviços
+- toshiro-shibakita/
+- │
+- ├── app/
+- │ └── index.php # Aplicação PHP
+- │
+- ├── db/
+- │ └── banco.sql # Script de criação do banco e da tabela
+- │
+- ├── nginx/
+- │ └── nginx.conf # Configuração do NGINX
+- │
+- ├── Dockerfile # Imagem PHP-FPM com extensão mysqli
+- └── docker-compose.yml # Orquestração dos microsserviços
 
 
 ---
